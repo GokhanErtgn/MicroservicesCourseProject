@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7A600FAF-4804-40F6-B242-46CF20FB0EB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{E492A30A-1F5A-4AAC-A5E8-74E75F4FFA78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseServices.Catalog", "Services\Catalog\CourseServices.Catalog\CourseServices.Catalog.csproj", "{5DB3B6BB-C12E-46C4-AA87-8E4C677B89E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{46AE1C5E-DAF7-41CC-A6F7-DAAC9E699BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Shared", "Shared\Course.Shared\Course.Shared.csproj", "{D39389D2-8E1A-4315-AFFC-6A49BCCE8F02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DB3B6BB-C12E-46C4-AA87-8E4C677B89E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB3B6BB-C12E-46C4-AA87-8E4C677B89E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB3B6BB-C12E-46C4-AA87-8E4C677B89E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB3B6BB-C12E-46C4-AA87-8E4C677B89E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39389D2-8E1A-4315-AFFC-6A49BCCE8F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39389D2-8E1A-4315-AFFC-6A49BCCE8F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39389D2-8E1A-4315-AFFC-6A49BCCE8F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39389D2-8E1A-4315-AFFC-6A49BCCE8F02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E492A30A-1F5A-4AAC-A5E8-74E75F4FFA78} = {7A600FAF-4804-40F6-B242-46CF20FB0EB6}
+		{5DB3B6BB-C12E-46C4-AA87-8E4C677B89E8} = {E492A30A-1F5A-4AAC-A5E8-74E75F4FFA78}
+		{D39389D2-8E1A-4315-AFFC-6A49BCCE8F02} = {46AE1C5E-DAF7-41CC-A6F7-DAAC9E699BB5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF3FD52B-3431-43BD-BB7A-16A089CB55DA}
+	EndGlobalSection
+EndGlobal
